@@ -15,7 +15,7 @@ with `webgl` backend.
 **Setup**
 
 ```bash
-git clone https://github.com/Hyuto/yolov8-tfjs.git
+git clone https://github.com/SVVAAP/Detective-Ai.git
 cd yolov8-tfjs
 yarn install #Install dependencies
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "yolov8-tfjs",
+  "name": "detaective-ai",
   "description": "Object detection application right in your browser using YOLOv8 and Tensorflow.js",
   "version": "1.0.0",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hyuto/yolov8-tfjs.git"
+    "url": "git+https://github.com/SVVAAP/Detective-Ai.git"
   },
   "keywords": [
     "object detection",
@@ -19,12 +19,12 @@
     "react",
     "tensorflow.js"
   ],
-  "author": "Wahyu Setianto",
+  "author": "SVVAAP",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Hyuto/yolov8-tfjs/issues"
+    "url": "https://github.com/SVVAAP/Detective-Ai/issues"
   },
-  "homepage": "https://github.com/Hyuto/yolov8-tfjs#readme",
+  "homepage": "https://github.com/SVVAAP/Detective-Ai#readme",
   "dependencies": {
     "@tensorflow/tfjs": "^4.1.0",
     "normalize.css": "^8.0.1",
