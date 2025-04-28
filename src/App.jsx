@@ -5,6 +5,8 @@ import Loader from "./components/loader";
 import ButtonHandler from "./components/btn-handler";
 import { detect, detectVideo } from "./utils/detect";
 import "./style/App.css";
+import Navbar from "./components/navbar";
+import Sketch from "./pages/sketchai";
 
 const App = () => {
   const [loading, setLoading] = useState({ loading: true, progress: 0 }); // loading state
@@ -311,6 +313,9 @@ const App = () => {
           <p>Loading model... {(loading.progress * 100).toFixed(1)}%</p>
         </div>
       )}
+
+      <Navbar />
+      <Sketch/>
       
       <header style={styles.header}>
         <h1 style={styles.title}>
